@@ -1,11 +1,4 @@
-<lcm:SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                          xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:4.0"
-                          xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:4.0"
-                          xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:4.0"
-                          xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:4.0"
-                          xmlns:sdg="http://data.europa.eu/p4s"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                          id="urn:uuid:f7dc04fe-337c-4523-85c7-35a7ab95bbac">
+<lcm:SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:4.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:4.0" xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:4.0" xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:4.0" xmlns:sdg="http://data.europa.eu/p4s" xmlns:xlink="http://www.w3.org/1999/xlink" id="urn:uuid:f7dc04fe-337c-4523-85c7-35a7ab95bbac">
 
     <rim:RegistryObjectList>
         <!-- FINLAND -->
@@ -13,11 +6,11 @@
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:party-id">org1_gw</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:party-id">c3</sdg:Identifier>
                         <sdg:ConformsTo>oots:edm-v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:party-id">FIDVV001</sdg:Identifier>
-                            <sdg:Name>Digi- ja väestövirasto</sdg:Name>
+                            <sdg:Name>Digi- ja väestövirasto (failure)</sdg:Name>
                             <sdg:Address>
                                 <sdg:FullAddress>PL 123</sdg:FullAddress>
                                 <sdg:PostCode>00531</sdg:PostCode>
@@ -27,27 +20,21 @@
                             <sdg:Jurisdiction>
                                 <sdg:AdminUnitLevel1>FI</sdg:AdminUnitLevel1>
                             </sdg:Jurisdiction>
-                            <sdg:ClassificationConcept>
-                                <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                                <sdg:SupportedValue>
-                                    <sdg:StringValue>private</sdg:StringValue>
-                                </sdg:SupportedValue>
-                            </sdg:ClassificationConcept>
                         </sdg:Publisher>
                     </sdg:AccessService>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider"/>
+            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:32518ae2-80f1-4b55-a695-ad97c8123b7e">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:party-id">org1_gw</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:party-id">c3</sdg:Identifier>
                         <sdg:ConformsTo>oots:edm-v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:party-id">FIDVV002</sdg:Identifier>
-                            <sdg:Name>Digi- ja väestövirasto</sdg:Name>
+                            <sdg:Name>Digi- ja väestövirasto (success)</sdg:Name>
                             <sdg:Address>
                                 <sdg:FullAddress>PL 123</sdg:FullAddress>
                                 <sdg:PostCode>00531</sdg:PostCode>
@@ -57,27 +44,21 @@
                             <sdg:Jurisdiction>
                                 <sdg:AdminUnitLevel1>FI</sdg:AdminUnitLevel1>
                             </sdg:Jurisdiction>
-                            <sdg:ClassificationConcept>
-                                <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                                <sdg:SupportedValue>
-                                    <sdg:StringValue>private</sdg:StringValue>
-                                </sdg:SupportedValue>
-                            </sdg:ClassificationConcept>
                         </sdg:Publisher>
                     </sdg:AccessService>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider"/>
+            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:2f5ea808-b3b7-452a-a342-ac2b394cfd4f">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:party-id">org1_gw</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:party-id">c3</sdg:Identifier>
                         <sdg:ConformsTo>oots:edm-v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:party-id">FIDVV003</sdg:Identifier>
-                            <sdg:Name>Digi- ja väestövirasto</sdg:Name>
+                            <sdg:Name>Digi- ja väestövirasto (preview)</sdg:Name>
                             <sdg:Address>
                                 <sdg:FullAddress>PL 123</sdg:FullAddress>
                                 <sdg:PostCode>00531</sdg:PostCode>
@@ -87,27 +68,21 @@
                             <sdg:Jurisdiction>
                                 <sdg:AdminUnitLevel1>FI</sdg:AdminUnitLevel1>
                             </sdg:Jurisdiction>
-                            <sdg:ClassificationConcept>
-                                <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                                <sdg:SupportedValue>
-                                    <sdg:StringValue>private</sdg:StringValue>
-                                </sdg:SupportedValue>
-                            </sdg:ClassificationConcept>
                         </sdg:Publisher>
                     </sdg:AccessService>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider"/>
+            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:a8ad22b6-2936-486d-bb13-584c52a7766c">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:party-id">org1_gw</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:party-id">c3</sdg:Identifier>
                         <sdg:ConformsTo>oots:edm-v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:party-id">FIDVV004</sdg:Identifier>
-                            <sdg:Name>Digi- ja väestövirasto</sdg:Name>
+                            <sdg:Name>Digi- ja väestövirasto (unavailable)</sdg:Name>
                             <sdg:Address>
                                 <sdg:FullAddress>PL 123</sdg:FullAddress>
                                 <sdg:PostCode>00531</sdg:PostCode>
@@ -117,17 +92,11 @@
                             <sdg:Jurisdiction>
                                 <sdg:AdminUnitLevel1>FI</sdg:AdminUnitLevel1>
                             </sdg:Jurisdiction>
-                            <sdg:ClassificationConcept>
-                                <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                                <sdg:SupportedValue>
-                                    <sdg:StringValue>private</sdg:StringValue>
-                                </sdg:SupportedValue>
-                            </sdg:ClassificationConcept>
                         </sdg:Publisher>
                     </sdg:AccessService>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider"/>
+            <rim:Classification id="urn:uuid:a1be6e74-abcd-1234-b04c-0376f367b8fd" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1">
             <rim:Slot name="DataServiceEvidenceType">
@@ -139,37 +108,15 @@
                         <sdg:DistributedAs>
                             <sdg:Format>application/pdf</sdg:Format>
                         </sdg:DistributedAs>
-                        <sdg:EvidenceProviderClassification>
-                            <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                            <sdg:Type>Codelist</sdg:Type>
-                            <sdg:ValueExpression>http://sr.europa.eu/codelists/birthCertificate</sdg:ValueExpression>
-                            <sdg:Description lang="en">Certificate of Birth</sdg:Description>
-                        </sdg:EvidenceProviderClassification>
                     </sdg:DataServiceEvidenceType>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:3f361165-1be0-42da-9bd2-5fcff59622bc" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="DataServiceEvidenceType"/>
+            <rim:Classification id="urn:uuid:3f361165-1be0-42da-9bd2-5fcff59622bc" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="DataServiceEvidenceType" />
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType" 
-                            id="urn:uuid:d650d08b-4ca3-4d04-a5d2-255d83b84ce2"
-                            sourceObject="urn:uuid:54c33c07-19c7-4a5d-95fa-a111c31d59d0"
-                            targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1"
-                            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType"/>
-        <rim:RegistryObject xsi:type="rim:AssociationType" 
-                            id="urn:uuid:a9584443-94e8-4236-9cb3-661d37164ad4"
-                            sourceObject="urn:uuid:32518ae2-80f1-4b55-a695-ad97c8123b7e"
-                            targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1"
-                            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType"/>
-        <rim:RegistryObject xsi:type="rim:AssociationType" 
-                            id="urn:uuid:a9584443-94e8-4236-9cb3-661d37164ad4"
-                            sourceObject="urn:uuid:2f5ea808-b3b7-452a-a342-ac2b394cfd4f"
-                            targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1"
-                            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType"/>
-        <rim:RegistryObject xsi:type="rim:AssociationType" 
-                            id="urn:uuid:a9584443-94e8-4236-9cb3-661d37164ad4"
-                            sourceObject="urn:uuid:a8ad22b6-2936-486d-bb13-584c52a7766c"
-                            targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1"
-                            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType"/>    
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:d650d08b-4ca3-4d04-a5d2-255d83b84ce2" sourceObject="urn:uuid:54c33c07-19c7-4a5d-95fa-a111c31d59d0" targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType" />
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:a9584443-94e8-4236-9cb3-661d37164ad4" sourceObject="urn:uuid:32518ae2-80f1-4b55-a695-ad97c8123b7e" targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType" />
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:a9584443-94e8-4236-9cb3-661d37164ad4" sourceObject="urn:uuid:2f5ea808-b3b7-452a-a342-ac2b394cfd4f" targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType" />
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:a9584443-94e8-4236-9cb3-661d37164ad4" sourceObject="urn:uuid:a8ad22b6-2936-486d-bb13-584c52a7766c" targetObject="urn:uuid:0e77022c-93b2-415a-80dd-9b2e97e3ecd1" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType" />
         <!-- SWEDEN -->
         <rim:RegistryObject id="urn:uuid:8f1c2780-570c-40cc-b87b-6a70f7b29e84">
             <rim:Slot name="EvidenceProvider">
@@ -189,19 +136,11 @@
                             <sdg:Jurisdiction>
                                 <sdg:AdminUnitLevel1>SE</sdg:AdminUnitLevel1>
                             </sdg:Jurisdiction>
-                            <sdg:ClassificationConcept>
-                                <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                                <sdg:SupportedValue>
-                                    <sdg:StringValue>private</sdg:StringValue>
-                                </sdg:SupportedValue>
-                            </sdg:ClassificationConcept>
                         </sdg:Publisher>
                     </sdg:AccessService>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:d5d99e03-a2f2-4dd2-aeae-ca03d01ba8ff"
-                                classificationScheme="urn:fdc:oots:classification:dsd"
-                                classificationNode="EvidenceProvider"/>
+            <rim:Classification id="urn:uuid:d5d99e03-a2f2-4dd2-aeae-ca03d01ba8ff" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:b1d92d27-1048-4def-a27c-7004e9dea679">
             <rim:Slot name="DataServiceEvidenceType">
@@ -213,24 +152,12 @@
                         <sdg:DistributedAs>
                             <sdg:Format>application/pdf</sdg:Format>
                         </sdg:DistributedAs>
-                        <sdg:EvidenceProviderClassification>
-                            <sdg:Identifier>CertificateOfBirth</sdg:Identifier>
-                            <sdg:Type>Codelist</sdg:Type>
-                            <sdg:ValueExpression>http://sr.europa.eu/codelists/birthCertificate</sdg:ValueExpression>
-                            <sdg:Description lang="en">Certificate of Birth</sdg:Description>
-                        </sdg:EvidenceProviderClassification>
                     </sdg:DataServiceEvidenceType>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:3f361165-1be0-42da-9bd2-5fcff59622bc"
-                                classificationScheme="urn:fdc:oots:classification:dsd"
-                                classificationNode="DataServiceEvidenceType"/>
+            <rim:Classification id="urn:uuid:3f361165-1be0-42da-9bd2-5fcff59622bc" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="DataServiceEvidenceType" />
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-                            id="urn:uuid:f7ab95b0-92aa-440a-9e11-4fed6887667f"
-                            sourceObject="urn:uuid:8f1c2780-570c-40cc-b87b-6a70f7b29e84"
-                            targetObject="urn:uuid:b1d92d27-1048-4def-a27c-7004e9dea679"
-                            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:f7ab95b0-92aa-440a-9e11-4fed6887667f" sourceObject="urn:uuid:8f1c2780-570c-40cc-b87b-6a70f7b29e84" targetObject="urn:uuid:b1d92d27-1048-4def-a27c-7004e9dea679" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType">
         </rim:RegistryObject>
 
     </rim:RegistryObjectList>
