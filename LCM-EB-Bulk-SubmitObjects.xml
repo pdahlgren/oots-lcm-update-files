@@ -1,11 +1,4 @@
-<lcm:SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:4.0"
-    xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:4.0"
-    xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:4.0"
-    xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:4.0"
-    xmlns:sdg="http://data.europa.eu/p4s"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    id="urn:uuid:6d51920f-04a7-4482-be34-153e01b0b7a3">
+<lcm:SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:4.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:4.0" xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:4.0" xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:4.0" xmlns:sdg="http://data.europa.eu/p4s" xmlns:xlink="http://www.w3.org/1999/xlink" id="urn:uuid:47924d34-5d8d-4352-b7ff-4bc376629b69">
 
     <rim:RegistryObjectList>
         <!-- FINLAND -->
@@ -13,46 +6,40 @@
             <rim:Slot name="EvidenceType">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:EvidenceType>
-                        <sdg:EvidenceTypeClassification>FI-EV0001</sdg:EvidenceTypeClassification>
-                        <sdg:Title lang="en">Certificate of Birth</sdg:Title>
-                        <sdg:Title lang="fi">Syntymätodistus</sdg:Title>
-                        <sdg:Description>Syntymätodistus</sdg:Description>
+                        <sdg:EvidenceTypeClassification>https://sr.oots.tech.europa.eu/evidencetypeclassifications/FI/c3d42376-2b41-4697-8fb3-a6d4a1f8a373</sdg:EvidenceTypeClassification>
+                        <sdg:Title lang="EN">Certificate of Birth</sdg:Title>
+                        <sdg:Title lang="FI">Syntymätodistus</sdg:Title>
+                        <sdg:Description lang="EN">Certificate of Birth</sdg:Description>
+                        <sdg:Description lang="FI">Syntymätodistus</sdg:Description>
                         <sdg:Jurisdiction>
                             <sdg:AdminUnitLevel1>FI</sdg:AdminUnitLevel1>
                         </sdg:Jurisdiction>
                     </sdg:EvidenceType>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:35c299d8-9383-47ce-ad8c-0ed70ea52827"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="EvidenceType" />
+            <rim:Classification id="urn:uuid:35c299d8-9383-47ce-ad8c-0ed70ea52827" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="EvidenceType" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:91197b3c-890b-475f-a07e-709742e59f23">
             <rim:Slot name="EvidenceTypeList">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:EvidenceTypeList>
-                        <sdg:Identifier>urn:uuid:45197b3c-890b-475f-a07e-709742e59456</sdg:Identifier>
+                        <sdg:Identifier>a5b56299-06df-48d0-a103-01e74dabe283</sdg:Identifier>
                     </sdg:EvidenceTypeList>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:4d44680b-432c-4b22-aa36-880d4ebd1b0d"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="EvidenceTypeList" />
+            <rim:Classification id="urn:uuid:4d44680b-432c-4b22-aa36-880d4ebd1b0d" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="EvidenceTypeList" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:315cfd75-6605-49c4-b0fe-799833b41099">
             <rim:Slot name="Requirement">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:Requirement>
                         <!-- requirement-id -->
-                        <sdg:Identifier>315cfd75-6605-49c4-b0fe-799833b41099</sdg:Identifier>
-                        <sdg:Name>Proof of Birth</sdg:Name>
+                        <sdg:Identifier>https://sr.oots.tech.europa.eu/requirements/315cfd75-6605-49c4-b0fe-799833b41099</sdg:Identifier>
+                        <sdg:Name lang="EN">Proof of Birth</sdg:Name>
                     </sdg:Requirement>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:22333046-3429-4684-85de-d9db69e236a1"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="Requirement"
-            />
+            <rim:Classification id="urn:uuid:22333046-3429-4684-85de-d9db69e236a1" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="Requirement" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:b0c90eb4-6b66-4dd8-8c79-6d964ac3b9a1">
             <rim:Slot name="ReferenceFramework">
@@ -60,15 +47,15 @@
                     <sdg:ReferenceFramework>
                         <!-- procedure-id -->
                         <sdg:Identifier>118fd444-6443-42be-a084-c9fbfd1f674d</sdg:Identifier>
-                        <sdg:Title>Procedure 1 - Annex II of SDG as Implemented in the Finnish
-                            Portal</sdg:Title>
-                        <sdg:Description>Procedure 5 of Annex II of the Regulation (EU) 2018/1724
+                        <sdg:Title lang="EN">Procedure 1 - Annex II of SDG as Implemented in the Finnish Portal</sdg:Title>
+                        <sdg:Description lang="EN">Procedure 5 of Annex II of the Regulation (EU) 2018/1724
                             of the European Parliament and of the Council of 2 October 2018
                             establishing a single digital gatewa to provide access to information,
                             to procedures and to assistance and problem-solving services and
                             amending Regulation (EU) No 1024/2012</sdg:Description>
                         <sdg:RelatedTo>
-                            <sdg:Identifier>http://data.europa.eu/eli/reg/2018/1724/oj#AnnexII-5</sdg:Identifier>
+                            <sdg:Identifier>R1</sdg:Identifier>
+                            <sdg:Title lang="EN">Related to Requesting proof of registration of birth</sdg:Title>
                         </sdg:RelatedTo>
                         <sdg:Jurisdiction>
                             <sdg:AdminUnitLevel1>FI</sdg:AdminUnitLevel1>
@@ -76,73 +63,53 @@
                     </sdg:ReferenceFramework>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:750869ec-aeac-4cc6-9386-75c86544e433"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="ReferenceFramework"/>
+            <rim:Classification id="urn:uuid:750869ec-aeac-4cc6-9386-75c86544e433" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="ReferenceFramework" />
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-            id="urn:uuid:826a2206-5dd0-45ff-abbc-23ba8f38477f"
-            sourceObject="urn:uuid:91197b3c-890b-475f-a07e-709742e59f23"
-            targetObject="urn:uuid:a1be6e74-e9ba-4d44-b04c-0376f367b8fd"
-            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ContainsEvidence">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:826a2206-5dd0-45ff-abbc-23ba8f38477f" sourceObject="urn:uuid:91197b3c-890b-475f-a07e-709742e59f23" targetObject="urn:uuid:a1be6e74-e9ba-4d44-b04c-0376f367b8fd" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ContainsEvidence">
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-            id="urn:uuid:3da4288b-e2ca-4d40-bde2-d3fc2dd04bab"
-            sourceObject="urn:uuid:91197b3c-890b-475f-a07e-709742e59f23"
-            targetObject="urn:uuid:315cfd75-6605-49c4-b0fe-799833b41099"
-            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:FulfillsRequirement">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:3da4288b-e2ca-4d40-bde2-d3fc2dd04bab" sourceObject="urn:uuid:91197b3c-890b-475f-a07e-709742e59f23" targetObject="urn:uuid:315cfd75-6605-49c4-b0fe-799833b41099" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:FulfillsRequirement">
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-            id="urn:uuid:d650d08b-4ca3-4d04-a5d2-255d83b84ce1"
-            sourceObject="urn:uuid:315cfd75-6605-49c4-b0fe-799833b41099"
-            targetObject="urn:uuid:b0c90eb4-6b66-4dd8-8c79-6d964ac3b9a1"
-            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:DerivesFromReferenceFramework">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:d650d08b-4ca3-4d04-a5d2-255d83b84ce1" sourceObject="urn:uuid:315cfd75-6605-49c4-b0fe-799833b41099" targetObject="urn:uuid:b0c90eb4-6b66-4dd8-8c79-6d964ac3b9a1" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:DerivesFromReferenceFramework">
         </rim:RegistryObject>
         <!-- SWEDEN -->
         <rim:RegistryObject id="urn:uuid:510e2911-fb12-40c3-9973-69d0272138d1">
             <rim:Slot name="EvidenceType">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:EvidenceType>
-                        <sdg:EvidenceTypeClassification>SE-EV0001</sdg:EvidenceTypeClassification>
-                        <sdg:Title lang="en">Certificate of Birth</sdg:Title>
-                        <sdg:Title lang="fi">Födelsebevis</sdg:Title>
-                        <sdg:Description>Födeslsebevis</sdg:Description>
+                        <sdg:EvidenceTypeClassification>https://sr.oots.tech.europa.eu/evidencetypeclassifications/SE/95f7bf95-8de8-4ead-b108-8f8a2877b7cd</sdg:EvidenceTypeClassification>
+                        <sdg:Title lang="EN">Certificate of Birth</sdg:Title>
+                        <sdg:Title lang="SE">Födelsebevis</sdg:Title>
+                        <sdg:Description lang="EN">Certificate of Birth</sdg:Description>
+                        <sdg:Description lang="SE">Födeslsebevis</sdg:Description>
                         <sdg:Jurisdiction>
                             <sdg:AdminUnitLevel1>SE</sdg:AdminUnitLevel1>
                         </sdg:Jurisdiction>
                     </sdg:EvidenceType>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:0a0baa3b-7ec8-4b0a-b103-fe721822fb32"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="EvidenceType" />
+            <rim:Classification id="urn:uuid:0a0baa3b-7ec8-4b0a-b103-fe721822fb32" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="EvidenceType" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:d9a03ee8-abdb-4a32-a4fa-7953bd8a569b">
             <rim:Slot name="EvidenceTypeList">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:EvidenceTypeList>
-                        <sdg:Identifier>urn:uuid:07447e2e-6bbc-4aee-bfc8-45c0e4fb0941</sdg:Identifier>
+                        <sdg:Identifier>08132ef7-7229-4d81-8388-0cb84af3747a</sdg:Identifier>
                     </sdg:EvidenceTypeList>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:3a6882ea-d071-474d-8cf4-839d7f390c01"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="EvidenceTypeList" />
+            <rim:Classification id="urn:uuid:3a6882ea-d071-474d-8cf4-839d7f390c01" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="EvidenceTypeList" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:8c8b5865-ffd1-4a7f-b1fe-d1a7ae2b6d5f">
             <rim:Slot name="Requirement">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:Requirement>
                         <!-- requirement-id -->
-                        <sdg:Identifier>315cfd75-6605-49c4-b0fe-799833b41099</sdg:Identifier>
-                        <sdg:Name>Proof of Birth</sdg:Name>
+                        <sdg:Identifier>https://sr.oots.tech.europa.eu/requirements/315cfd75-6605-49c4-b0fe-799833b41099</sdg:Identifier>
+                        <sdg:Name lang="EN">Proof of Birth</sdg:Name>
                     </sdg:Requirement>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:433cfef3-a32d-4aa4-8df0-b92d19407e16"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="Requirement"
-            />
+            <rim:Classification id="urn:uuid:433cfef3-a32d-4aa4-8df0-b92d19407e16" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="Requirement" />
         </rim:RegistryObject>
         <rim:RegistryObject id="urn:uuid:bbeaa194-41b4-4b35-b3a3-05653c75acfb">
             <rim:Slot name="ReferenceFramework">
@@ -150,15 +117,15 @@
                     <sdg:ReferenceFramework>
                         <!-- procedure-id -->
                         <sdg:Identifier>4f8a55e4-0f7e-475a-81af-eadcbb10069b</sdg:Identifier>
-                        <sdg:Title>Procedure 1 - Annex II of SDG as Implemented in the Swedish
-                            Portal</sdg:Title>
-                        <sdg:Description>Procedure 5 of Annex II of the Regulation (EU) 2018/1724
+                        <sdg:Title lang="EN">Procedure 1 - Annex II of SDG as Implemented in the Swedish Portal</sdg:Title>
+                        <sdg:Description lang="EN">Procedure 5 of Annex II of the Regulation (EU) 2018/1724
                             of the European Parliament and of the Council of 2 October 2018
                             establishing a single digital gatewa to provide access to information,
                             to procedures and to assistance and problem-solving services and
                             amending Regulation (EU) No 1024/2012</sdg:Description>
                         <sdg:RelatedTo>
-                            <sdg:Identifier>http://data.europa.eu/eli/reg/2018/1724/oj#AnnexII-5</sdg:Identifier>
+                            <sdg:Identifier>R1</sdg:Identifier>
+                            <sdg:Title lang="EN">Related to Requesting proof of registration of birth</sdg:Title>
                         </sdg:RelatedTo>
                         <sdg:Jurisdiction>
                             <sdg:AdminUnitLevel1>SE</sdg:AdminUnitLevel1>
@@ -166,27 +133,13 @@
                     </sdg:ReferenceFramework>
                 </rim:SlotValue>
             </rim:Slot>
-            <rim:Classification id="urn:uuid:1374d739-b903-40e6-88c5-c2cffcd4687f"
-                classificationScheme="urn:fdc:oots:classification:eb"
-                classificationNode="ReferenceFramework"/>
+            <rim:Classification id="urn:uuid:1374d739-b903-40e6-88c5-c2cffcd4687f" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="ReferenceFramework" />
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-            id="urn:uuid:0a9cc2a3-34a5-4b65-9f6d-9558352f703c"
-            sourceObject="urn:uuid:d9a03ee8-abdb-4a32-a4fa-7953bd8a569b"
-            targetObject="urn:uuid:510e2911-fb12-40c3-9973-69d0272138d1"
-            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ContainsEvidence">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:0a9cc2a3-34a5-4b65-9f6d-9558352f703c" sourceObject="urn:uuid:d9a03ee8-abdb-4a32-a4fa-7953bd8a569b" targetObject="urn:uuid:510e2911-fb12-40c3-9973-69d0272138d1" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ContainsEvidence">
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-            id="urn:uuid:b3de7d77-5f9e-46e0-a459-58ab677e2837"
-            sourceObject="urn:uuid:d9a03ee8-abdb-4a32-a4fa-7953bd8a569b"
-            targetObject="urn:uuid:8c8b5865-ffd1-4a7f-b1fe-d1a7ae2b6d5f"
-            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:FulfillsRequirement">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:b3de7d77-5f9e-46e0-a459-58ab677e2837" sourceObject="urn:uuid:d9a03ee8-abdb-4a32-a4fa-7953bd8a569b" targetObject="urn:uuid:8c8b5865-ffd1-4a7f-b1fe-d1a7ae2b6d5f" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:FulfillsRequirement">
         </rim:RegistryObject>
-        <rim:RegistryObject xsi:type="rim:AssociationType"
-            id="urn:uuid:d81429ec-dd55-47c5-81e3-b38efd75e51e"
-            sourceObject="urn:uuid:8c8b5865-ffd1-4a7f-b1fe-d1a7ae2b6d5f"
-            targetObject="urn:uuid:bbeaa194-41b4-4b35-b3a3-05653c75acfb"
-            type="urn:oasis:names:tc:ebxml-regrep:AssociationType:DerivesFromReferenceFramework">
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:d81429ec-dd55-47c5-81e3-b38efd75e51e" sourceObject="urn:uuid:8c8b5865-ffd1-4a7f-b1fe-d1a7ae2b6d5f" targetObject="urn:uuid:bbeaa194-41b4-4b35-b3a3-05653c75acfb" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:DerivesFromReferenceFramework">
         </rim:RegistryObject>
     </rim:RegistryObjectList>
 </lcm:SubmitObjectsRequest>
