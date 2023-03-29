@@ -188,5 +188,66 @@
         <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:68bddfdb-a2af-40e2-b625-a0513042ea29" sourceObject="urn:uuid:ba3184b7-aa1f-4031-a9eb-aa066b1aef91" targetObject="urn:uuid:6dba3082-d532-4b90-a0b3-2cc2f8bc9af8" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ContainsEvidence"></rim:RegistryObject>
         <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:68f3f272-9ac2-4b80-a729-f77621f9b6d5" sourceObject="urn:uuid:ba3184b7-aa1f-4031-a9eb-aa066b1aef91" targetObject="urn:uuid:94cbbc96-7031-4597-aa2b-7ad6b5a16861" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:FulfillsRequirement"></rim:RegistryObject>
         <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:b9b8b9be-0fc7-4389-890f-9526bf1e3c3d" sourceObject="urn:uuid:94cbbc96-7031-4597-aa2b-7ad6b5a16861" targetObject="urn:uuid:ce5cad6c-1891-4e93-9282-30338678fe21" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:DerivesFromReferenceFramework"></rim:RegistryObject>
+        <!-- ESTONIA -->
+        <rim:RegistryObject id="urn:uuid:407ec9fb-43e5-4210-b5b2-506af34d0b75">
+            <rim:Slot name="EvidenceType">
+                <rim:SlotValue xsi:type="rim:AnyValueType">
+                    <sdg:EvidenceType>
+                        <sdg:EvidenceTypeClassification>https://sr.oots.tech.europa.eu/evidencetypeclassifications/EE/7a2d1c5c-3a20-4232-980d-b80c133466ad</sdg:EvidenceTypeClassification>
+                        <sdg:Title lang="EN">Certificate of Birth</sdg:Title>
+                        <sdg:Description lang="EN">Certificate of Birth</sdg:Description>
+                        <sdg:Jurisdiction>
+                            <sdg:AdminUnitLevel1>EE</sdg:AdminUnitLevel1>
+                        </sdg:Jurisdiction>
+                    </sdg:EvidenceType>
+                </rim:SlotValue>
+            </rim:Slot>
+            <rim:Classification id="urn:uuid:d083235b-fe5a-482c-a229-a2e291d16e9b" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="EvidenceType" />
+        </rim:RegistryObject>
+        <rim:RegistryObject id="urn:uuid:8bbc0ad1-c998-44e5-b3a5-fccfd92b7000">
+            <rim:Slot name="EvidenceTypeList">
+                <rim:SlotValue xsi:type="rim:AnyValueType">
+                    <sdg:EvidenceTypeList>
+                        <sdg:Identifier>4d1f3ed5-feb9-4f27-a422-b8b793bbd150</sdg:Identifier>
+                    </sdg:EvidenceTypeList>
+                </rim:SlotValue>
+            </rim:Slot>
+            <rim:Classification id="urn:uuid:7614a142-83a5-4764-a5d6-5a2ec3c5d990" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="EvidenceTypeList" />
+        </rim:RegistryObject>
+        <rim:RegistryObject id="urn:uuid:dde89aea-099b-432c-9777-8309fc617830">
+            <rim:Slot name="Requirement">
+                <rim:SlotValue xsi:type="rim:AnyValueType">
+                    <sdg:Requirement>
+                        <!-- requirement-id -->
+                        <sdg:Identifier>https://sr.oots.tech.europa.eu/requirements/315cfd75-6605-49c4-b0fe-799833b41099</sdg:Identifier>
+                        <sdg:Name lang="EN">Proof of Birth</sdg:Name>
+                    </sdg:Requirement>
+                </rim:SlotValue>
+            </rim:Slot>
+            <rim:Classification id="urn:uuid:05bf4357-2ed1-4b06-a9ee-32ef77f9cb87" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="Requirement" />
+        </rim:RegistryObject>
+        <rim:RegistryObject id="urn:uuid:75571608-b4b8-4941-9c0b-979a22caaf51">
+            <rim:Slot name="ReferenceFramework">
+                <rim:SlotValue xsi:type="rim:AnyValueType">
+                    <sdg:ReferenceFramework>
+                        <!-- procedure-id -->
+                        <sdg:Identifier>823ebc5b-d8ae-4e81-bd97-b13602ad4be5</sdg:Identifier>
+                        <sdg:Title lang="EN">Procedure 1 - Annex II of SDG as Implemented in the Belgian Portal</sdg:Title>
+                        <sdg:Description lang="EN">Procedure 5 of Annex II of the Regulation (EU) 2018/1724 of the European Parliament and of the Council of 2 October 2018 establishing a single digital gatewa to provide access to information, to procedures and to assistance and problem-solving services and amending Regulation (EU) No 1024/2012</sdg:Description>
+                        <sdg:RelatedTo>
+                            <sdg:Identifier>R1</sdg:Identifier>
+                            <sdg:Title lang="EN">Related to Requesting proof of registration of birth</sdg:Title>
+                        </sdg:RelatedTo>
+                        <sdg:Jurisdiction>
+                            <sdg:AdminUnitLevel1>EE</sdg:AdminUnitLevel1>
+                        </sdg:Jurisdiction>
+                    </sdg:ReferenceFramework>
+                </rim:SlotValue>
+            </rim:Slot>
+            <rim:Classification id="urn:uuid:10dabfbb-7447-4962-9166-3a0a21903f16" classificationScheme="urn:fdc:oots:classification:eb" classificationNode="ReferenceFramework" />
+        </rim:RegistryObject>
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:21a24e02-6512-465d-ba05-d32d0d6c0567" sourceObject="urn:uuid:8bbc0ad1-c998-44e5-b3a5-fccfd92b7000" targetObject="urn:uuid:407ec9fb-43e5-4210-b5b2-506af34d0b75" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ContainsEvidence"></rim:RegistryObject>
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:6d4f4f9f-a275-4ae5-b5bd-ff481933ea5f" sourceObject="urn:uuid:8bbc0ad1-c998-44e5-b3a5-fccfd92b7000" targetObject="urn:uuid:dde89aea-099b-432c-9777-8309fc617830" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:FulfillsRequirement"></rim:RegistryObject>
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:b01b6017-8852-4a9a-b3b7-41618094fa25" sourceObject="urn:uuid:dde89aea-099b-432c-9777-8309fc617830" targetObject="urn:uuid:75571608-b4b8-4941-9c0b-979a22caaf51" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:DerivesFromReferenceFramework"></rim:RegistryObject>
     </rim:RegistryObjectList>
 </lcm:SubmitObjectsRequest>
