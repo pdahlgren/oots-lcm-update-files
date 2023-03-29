@@ -169,7 +169,47 @@ id="urn:uuid:cb83a49b-c2cf-4aba-9cdc-93c8b493c3da">
         </rim:RegistryObject>
         <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:f7ab95b0-92aa-440a-9e11-4fed6887667f" sourceObject="urn:uuid:8f1c2780-570c-40cc-b87b-6a70f7b29e84" targetObject="urn:uuid:b1d92d27-1048-4def-a27c-7004e9dea679" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType">
         </rim:RegistryObject>
-
+        <!-- OOTS_TEST_PLATFORM -->
+        <rim:RegistryObject id="urn:uuid:c7f8ba0f-b44a-417f-a0c8-040d23c173db">
+            <rim:Slot name="EvidenceProvider">
+                <rim:SlotValue xsi:type="rim:AnyValueType">
+                    <sdg:AccessService>
+                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">oots_test_platform</sdg:Identifier>
+                        <sdg:ConformsTo>oots-edm:v1.0</sdg:ConformsTo>
+                        <sdg:Publisher>
+                            <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0212">oots_test_platform</sdg:Identifier>
+                            <sdg:Name>OOTS TEST PLATFORM</sdg:Name>
+                            <sdg:Address>
+                                <sdg:FullAddress>Charlemagne building, Wetstraat 170</sdg:FullAddress>
+                                <sdg:PostCode>1040</sdg:PostCode>
+                                <sdg:PostCityName>Brussel</sdg:PostCityName>
+                                <sdg:AdminUnitLevel1>BE</sdg:AdminUnitLevel1>
+                            </sdg:Address>
+                            <sdg:Jurisdiction>
+                                <sdg:AdminUnitLevel1>BE</sdg:AdminUnitLevel1>
+                            </sdg:Jurisdiction>
+                        </sdg:Publisher>
+                    </sdg:AccessService>
+                </rim:SlotValue>
+            </rim:Slot>
+            <rim:Classification id="urn:uuid:b001eea8-030e-42c8-b706-a403f95b3c64" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="EvidenceProvider" />
+        </rim:RegistryObject>
+        <rim:RegistryObject id="urn:uuid:eb471170-2b26-46ce-b4b9-c9c2bb6a4e1f">
+            <rim:Slot name="DataServiceEvidenceType">
+                <rim:SlotValue xsi:type="rim:AnyValueType">
+                    <sdg:DataServiceEvidenceType>
+                        <sdg:Identifier>3650cebf-286f-4427-87f0-405603757a27</sdg:Identifier>
+                        <sdg:EvidenceTypeClassification>https://sr.oots.tech.europa.eu/evidencetypeclassifications/BE/caa082cb-b8cf-4b56-a3ef-eda00d60e199</sdg:EvidenceTypeClassification>
+                        <sdg:Title lang="EN">Certificate of Birth</sdg:Title>
+                        <sdg:DistributedAs>
+                            <sdg:Format>application/pdf</sdg:Format>
+                        </sdg:DistributedAs>
+                    </sdg:DataServiceEvidenceType>
+                </rim:SlotValue>
+            </rim:Slot>
+            <rim:Classification id="urn:uuid:465060f1-f789-430b-beea-99f58b9d9507" classificationScheme="urn:fdc:oots:classification:dsd" classificationNode="DataServiceEvidenceType" />
+        </rim:RegistryObject>
+        <rim:RegistryObject xsi:type="rim:AssociationType" id="urn:uuid:e35fc75f-df12-4ee1-b036-a69dfe09e824" sourceObject="urn:uuid:c7f8ba0f-b44a-417f-a0c8-040d23c173db" targetObject="urn:uuid:eb471170-2b26-46ce-b4b9-c9c2bb6a4e1f" type="urn:oasis:names:tc:ebxml-regrep:AssociationType:ServesEvidenceType">
+        </rim:RegistryObject>
     </rim:RegistryObjectList>
-
 </lcm:SubmitObjectsRequest>
