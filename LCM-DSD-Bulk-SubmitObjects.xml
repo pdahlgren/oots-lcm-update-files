@@ -14,7 +14,7 @@ id="urn:uuid:cb83a49b-c2cf-4aba-9cdc-93c8b493c3da">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">c3</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">harmony-org2</sdg:Identifier>
                         <sdg:ConformsTo>oots-edm:v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0212">FIDVV001</sdg:Identifier>
@@ -38,7 +38,7 @@ id="urn:uuid:cb83a49b-c2cf-4aba-9cdc-93c8b493c3da">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">c3</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">harmony-org2</sdg:Identifier>
                         <sdg:ConformsTo>oots-edm:v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0212">FIDVV002</sdg:Identifier>
@@ -62,7 +62,7 @@ id="urn:uuid:cb83a49b-c2cf-4aba-9cdc-93c8b493c3da">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">c3</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">harmony-org2</sdg:Identifier>
                         <sdg:ConformsTo>oots-edm:v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0212">FIDVV003</sdg:Identifier>
@@ -86,7 +86,7 @@ id="urn:uuid:cb83a49b-c2cf-4aba-9cdc-93c8b493c3da">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">c3</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">harmony-org2</sdg:Identifier>
                         <sdg:ConformsTo>oots-edm:v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
                             <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0212">FIDVV004</sdg:Identifier>
@@ -131,10 +131,10 @@ id="urn:uuid:cb83a49b-c2cf-4aba-9cdc-93c8b493c3da">
             <rim:Slot name="EvidenceProvider">
                 <rim:SlotValue xsi:type="rim:AnyValueType">
                     <sdg:AccessService>
-                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">OOTS-SE</sdg:Identifier>
+                        <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:0060">AP_SE_01</sdg:Identifier>
                         <sdg:ConformsTo>oots-edm:v1.0</sdg:ConformsTo>
                         <sdg:Publisher>
-                            <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:9955">SEORG001</sdg:Identifier>
+                            <sdg:Identifier schemeID="urn:cef.eu:names:identifier:EAS:9955">BR_SE_01</sdg:Identifier>
                             <sdg:Name>Skatteverket</sdg:Name>
                             <sdg:Address>
                                 <sdg:FullAddress>Vasagatan</sdg:FullAddress>
